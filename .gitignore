@@ -1,0 +1,29 @@
+# Node.js
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+package-lock.json
+
+# TypeScript
+dist/
+*.tsbuildinfo
+
+# Ambiente
+.env
+
+# SQLite (ou outros bancos locais)
+*.sqlite
+*.db
+
+# VSCode e outros editores
+.vscode/
+.idea/
+*.swp
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+
+# Migrations
+typeorm/migrations/*.js
